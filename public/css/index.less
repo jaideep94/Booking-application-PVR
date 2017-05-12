@@ -1,0 +1,663 @@
+//out : ../css/index.css, sourcemap:true, compress:true
+body {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+.mainContent {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: url("../images/bgLeather.png");
+    background-size: contain;
+    background-position: center;
+    .borderContainer {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        z-index: 1;
+        .topLeft {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 23rem;
+            z-index: 1;
+        }
+        .bottomLeft {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            z-index: 1;
+            height: 23rem;
+        }
+        .left {
+            position: absolute;
+            left: 0;
+            width: 11rem;
+            top: 50%;
+            -webkit-transform: translateY(-50%);
+        }
+        .bottom {
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            height: 20rem;
+            -webkit-transform: translateX(-50%);
+        }
+        .bottomRight {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            z-index: 1;
+            height: 22rem;
+        }
+        .right {
+            position: absolute;
+            right: 0;
+            top: 50%;
+            -webkit-transform: translateY(-50%);
+            width: 11rem;
+        }
+        .topRight {
+            position: absolute;
+            right: 0;
+            height: 22rem;
+            top: 0;
+            z-index: 1;
+        }
+        .bottomL {
+            position: absolute;
+            bottom: 0;
+            left: 10rem;
+            height: 20rem;
+        }
+        .bottomR {
+            position: absolute;
+            bottom: 0;
+            right: 9rem;
+            height: 20rem;
+        }
+        .topL {
+            position: absolute;
+            top: 0;
+            left: 10rem;
+            height: 22rem;
+        }
+        .topR {
+            position: absolute;
+            top: 0;
+            right: 9rem;
+            height: 22rem;
+        }
+    }
+    .nameScreen {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top: 0%;
+        .heading {
+            position: absolute;
+            z-index: 2;
+            width: 100%;
+            height: 5.5rem;
+            font-family: 'Slabo 27px', serif;
+            font-size: 1.3rem;
+            .headingUpper {
+                position: absolute;
+                height: 2rem;
+                top: 2.5rem;
+                left: 50%;
+                width: 26rem;
+                -webkit-transform: translateX(-50%);
+                .star {
+                    position: absolute;
+                    height: 2.5rem;
+                    top: -0.5rem;
+                }
+                .dayOne {
+                    position: relative;
+                    float: left;
+                    width: 7rem;
+                    margin-left: 1.5rem;
+                    height: 1.5rem;
+                    margin-right: 0.5rem;
+                    line-height: 1.5rem;
+                    color: white;
+                    text-align: center;
+                }
+                .dayTwo {
+                    position: relative;
+                    float: left;
+                    margin-right: 0.5rem;
+                    width: 8rem;
+                    text-align: center;
+                    color: white;
+                    height: 1.5rem;
+                    line-height: 1.5rem;
+                    border-right: 1px solid white;
+                    border-left: 1px solid white;
+                }
+                .dayThree {
+                    position: relative;
+                    float: left;
+                    margin-right: 0.5rem;
+                    width: 7rem;
+                    text-align: center;
+                    color: white;
+                    height: 1.5rem;
+                    line-height: 1.5rem;
+                }
+            }
+            .headingLower {
+                position: absolute;
+                left: 50%;
+                -webkit-transform: translateX(-50%);
+                top: 6rem;
+                width: 28rem;
+                height: 2rem;
+                line-height: 2rem;
+                .rectangle {
+                    position: relative;
+                    float: left;
+                    text-align: center;
+                    width: 6rem;
+                    margin-left: 1.5rem;
+                    padding: 0.5rem;
+                    height: 1rem;
+                    line-height: 1rem;
+                    border: 1px solid white;
+                    background-color: white;
+                    font-size: 1.2rem;
+                }
+            }
+        }
+        .blockContainer {
+            position: absolute;
+            height: auto;
+            bottom: 0;
+            width: 80%;
+            top: 9rem;
+            z-index: 1;
+            padding-top: 1.5rem;
+            left: 50%;
+            transform: translateX(-50%);
+            .square {
+                position: relative;
+                float: left;
+                margin-left: 1.5rem;
+                height: 13rem;
+                width: 13rem;
+                border-radius: 4px;
+                border: 1px solid #808080;
+                .circle {
+                    position: relative;
+                    float: left;
+                    margin-left: 1rem;
+                    line-height: 2rem;
+                    font-size: 1.4rem;
+                    margin-top: 0.8rem;
+                    border-radius: 50%;
+                    border: 1px solid white;
+                    height: 2rem;
+                    width: 2rem;
+                    background-color: white;
+                    text-align: center;
+                    font-family: 'Slabo 27px',serif;
+                }
+                .textOne {
+                    position: relative;
+                    float: left;
+                    color: white;
+                    font-family: 'Slabo 27px',serif;
+                    height: 4rem;
+                    width: 9rem;
+                    text-align: center;
+                    font-size: 1.2rem;
+                    line-height: 4rem;
+                }
+                .textTwo {
+                    position: relative;
+                    float: left;
+                    color: white;
+                    height: 3rem;
+                    width: 13rem;
+                    margin-left: 1rem;
+                    font-size: 1.5rem;
+                    line-height: 3rem;
+                    font-family: 'Slabo 27px',serif;
+                }
+            }
+        }
+        &.slider{
+          top:100%;
+        }
+    }
+    .billScreen {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top: 0%;
+        left:100%;
+        z-index: 1;
+        .mainImage {
+            position: absolute;
+            width: 85%;
+            bottom: 20rem;
+            left: 50%;
+            -webkit-transform: translateX(-50%);
+            top: 3rem;
+            background-color: #FAF6ED;
+            .main {
+                position: relative;
+                float: left;
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .logo {
+            position: absolute;
+            left: 50%;
+            -webkit-transform: translateX(-50%);
+            height: 5rem;
+            top: 1rem;
+        }
+        .zig {
+            position: relative;
+            width: 100%;
+            height: 1.5rem;
+        }
+        .ratingStars {
+            position: relative;
+            width: 100%;
+            height: 10rem;
+            .ratingText {
+                position: relative;
+                float: left;
+                width: 100%;
+                height: 5rem;
+                color: white;
+                font-weight: 100;
+                font-family: 'Roboto',sans-serif;
+                text-align: center;
+                line-height: 5rem;
+                font-size: 1.8rem;
+            }
+            .stars {
+                position: absolute;
+                -webkit-transform: translateX(-50%);
+                width: 22rem;
+                top: 5rem;
+                left: 50%;
+                height: 5rem;
+                .greyStar {
+                    position: relative;
+                    float: left;
+                    height: 3rem;
+                    margin-left: 1rem;
+
+                            &.changeStar{
+
+                              content:  url("../images/yellowStar.png");
+                            }
+                }
+            }
+        }
+        .itemContainer {
+            position: relative;
+            float: left;
+            margin-top: 8rem;
+            width: 100%;
+            height: 22rem;
+            padding-left: 1rem;
+            padding-right: 2.5rem;
+            box-sizing: border-box;
+            .item {
+                position: relative;
+                float: left;
+                width: 100%;
+                height: 3rem;
+                line-height: 3rem;
+                font-family: arial;
+                font-size: 1.5rem;
+            }
+            .quantity {
+                position: relative;
+                float: left;
+                font-size: 1.2rem;
+                font-weight: bold;
+                font-family: 'Sanchez', serif;
+                margin-left: 2rem;
+                color: #3a3838;
+            }
+            .name {
+                position: relative;
+                float: left;
+                font-size: 1.2rem;
+                font-weight: bold;
+                color: #3a3838;
+                font-family: 'Sanchez', serif;
+                margin-left: 2rem;
+            }
+            .price {
+                position: relative;
+                float: right;
+                font-size: 1.2rem;
+                font-weight: bold;
+                font-family: 'Sanchez', serif;
+                margin-left: 2rem;
+                color: #3a3838;
+            }
+        }
+        .tax {
+            position: relative;
+            float: left;
+            margin-left: 1%;
+            margin-right: 1%;
+            width: 98%;
+            height: 8.5rem;
+            border-top: 2px dotted rgba(128,128,128,0.25);
+            border-bottom: 2px dotted rgba(128,128,128,0.25);
+            box-sizing: border-box;
+            padding-left: 1.5rem;
+            padding-right: 1.5rem;
+            padding-top: 1.5rem;
+            .serviceTax {
+                position: relative;
+                float: left;
+                width: 100%;
+                font-weight: bold;
+                margin-bottom: 0.6rem;
+                font-family: sans-serif;
+                font-size: 1.1rem;
+                color: rgba(51,49,49,0.83);
+            }
+            .serviceName {
+                position: relative;
+                float: left;
+            }
+            .serviceAmount {
+                position: relative;
+                float: right;
+            }
+        }
+        .amount {
+            position: relative;
+            float: left;
+            width: 100%;
+            height: 10rem;
+            padding-left: 2.5rem;
+            padding-right: 2.5rem;
+            box-sizing: border-box;
+        }
+        .totalAmount {
+            position: relative;
+            float: left;
+            width: 15rem;
+            height: 100%;
+            color: rgba(51,49,49,0.83);
+            .dollar {
+                position: absolute;
+                width: 2rem;
+                bottom: 3rem;
+                font-size: 2rem;
+                height: 3rem;
+                font-weight: bold;
+            }
+            .amountPrice {
+                position: absolute;
+                left: 1rem;
+                bottom: 4rem;
+                font-size: 4rem;
+                top: 2rem;
+                font-family: 'Alegreya Sans', sans-serif;
+            }
+        }
+        .payButton {
+            position: relative;
+            float: right;
+            margin-top: 3rem;
+            width: 8rem;
+            height: 3.5rem;
+            border: 1px solid black;
+            background-color: black;
+            color: white;
+            line-height: 3.5rem;
+            font-family: sans-serif;
+            text-align: center;
+            font-size: 1.3rem;
+        }
+
+        &.billSlide{
+          top:-74%;
+        }
+        &.sliderLeft{
+          left:0%;
+          -webkit-transition:1s;
+        }
+    }
+    .feedbackScreen {
+        position: absolute;
+        width: 100%;
+        top:100%;
+        height: 100%;
+        .backImage {
+            position: absolute;
+            height: 65%;
+            width: 85%;
+            left: 50%;
+            z-index: 1;
+            top: 10rem;
+            -webkit-transform: translateX(-50%);
+            .zig {
+                position: relative;
+                height: 2rem;
+                width: 100%;
+            }
+            .feedback {
+                position: relative;
+                width: 100%;
+                height: 100%;
+                background-color: #FAF6ED;
+                .entry {
+                    position: relative;
+                    float: left;
+                    width: 96%;
+                    height: 5rem;
+                    margin-left: 2%;
+                    margin-right: 2%;
+                    border-bottom: 2px dotted rgba(128,128,128,0.36);
+                }
+                .enterName {
+                    position: relative;
+                    float: left;
+                    width: 80%;
+                    height: 100%;
+                    .nameImage {
+                        position: relative;
+                        float: left;
+                        margin-top: 1.5rem;
+                        height: 2rem;
+                    }
+                    .personName {
+                        position: relative;
+                        float: left;
+                        outline: none;
+                        font-size: 1.2rem;
+                        margin-top: 1.8rem;
+                        margin-left: 0.5rem;
+                        background-color: #FAF6ED;
+                        border: 2px solid #FAF6ED;
+                    }
+                }
+                .enterPhone {
+                    position: relative;
+                    float: right;
+                    width: 20%;
+                    outline: none;
+                    height: 100%;
+                }
+                .phoneImage {
+                    position: absolute;
+                    /* float: left; */
+                    height: 2rem;
+                    top: 0.4rem;
+                    right: 12.2rem;
+                    margin-top: 1.5rem;
+                }
+                .personPhone {
+                    position: absolute;
+                    top: 1.8rem;
+                    /* left: 12rem; */
+                    font-size: 1.2rem;
+                    right: 0;
+                    outline: none;
+                    width: 12rem;
+                    background-color: #FAF6ED;
+                    border: 2px solid #FAF6ED;
+                }
+                .email {
+                    position: relative;
+                    float: left;
+                    width: 96%;
+                    height: 5rem;
+                    margin-left: 2%;
+                    margin-right: 2%;
+                    .mailImage {
+                        position: relative;
+                        float: left;
+                        height: 2rem;
+                        margin-top: 1.5rem;
+                    }
+                    .personMail {
+                        position: absolute;
+                        top: 1.7rem;
+                        outline:none;
+                        left: 3rem;
+                        font-size: 1.2rem;
+                        background-color: #FAF6ED;
+                        border: 2px solid #FAF6ED;
+                        width: 23rem;
+                    }
+                }
+                .movie {
+                    position: relative;
+                    float: left;
+                    width: 96%;
+                    line-height: 4rem;
+                    height: 4rem;
+                    margin-left: 2%;
+                    margin-right: 2%;
+                    .title {
+                        position: relative;
+                        float: left;
+                        font-size: 1.7rem;
+                        font-family: sans-serif;
+                        font-weight: 600;
+                        height: 100%;
+                        color: #0D0D0C;
+                    }
+                    .circle {
+                      position: relative;
+  float: right;
+  height: 2rem;
+  margin-left: 1.5rem;
+}
+
+  .circlee {
+    position: relative;
+float: right;
+height: 2rem;
+margin-left: 1.5rem;
+}
+
+                    .button {
+                        position: relative;
+                        float: right;
+                        height: 3rem;
+                        font-family: sans-serif;
+                        font-weight: bold;
+                        font-size: 2rem;
+                        width: 15.5rem;
+                        border: 1px solid rgba(128,128,128,0.34);
+                        line-height: 3rem;
+                        text-align: center;
+                        font-size: 1.5rem;
+                        background-color: rgba(128,128,128,0.34);
+                        font-size: 1.2rem;
+                    }
+                }
+                .commentBorder {
+                    position: relative;
+                    float: left;
+                    margin-left: 2%;
+                    height: 5rem;
+                    margin-right: 2%;
+                    width: 96%;
+                    border-bottom: 1px solid rgba(128,125,120,0.22);
+                    .comment {
+                        position: absolute;
+                        /* float: left; */
+                        top: 1.8rem;
+                        outline:none;
+                        font-size: 1.2rem;
+                        background-color: #FAF6ED;
+                        border: 2px solid #FAF6ED;
+                        width: 100%;
+                    }
+                }
+                .gift {
+                    position: relative;
+                    float: left;
+                    font-family: arial;
+                    font-size: 1.3rem;
+                    line-height: 4rem;
+                    height: 4rem;
+                    width: 96%;
+                    margin-left: 2%;
+                    margin-right: 2%;
+                }
+                .dateBox {
+                    position: relative;
+                    float: left;
+                    width: 100%;
+                    height: 7rem;
+                    .date {
+                        position: relative;
+                        float: left;
+                        font-size: 1.2rem;
+                        padding-left: 1rem;
+                        height: 2.5rem;
+                        outline: none;
+                        margin-left: 2%;
+                        width: 12rem;
+                        background-color: #FAF6ED;
+                        border: 1px solid rgba(128, 128, 128, 0.36);
+                        .number {
+                            position: relative;
+                            float: left;
+                            font-family: arial;
+                            font-size: 1.3rem;
+                            height: 3.2rem;
+                            line-height: 3.2rem;
+                            color: rgba(128, 128, 128, 0.36);
+                            text-align: center;
+                            margin-left: 1rem;
+                        }
+                    }
+                }
+            }
+        }
+        .submitButton {
+            position: absolute;
+            left: 50%;
+            -webkit-transform: translateX(-50%);
+            height: 8rem;
+            z-index: 1;
+            bottom: 3rem;
+        }
+        &.slider{
+          top:0;
+          -webkit-transition:1s;
+        }
+    }
+}
